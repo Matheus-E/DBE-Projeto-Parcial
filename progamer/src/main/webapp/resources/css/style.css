@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-body {
+body{
 	background-color: #ddd;
 }
 
-.form-card {
-	width: 25rem;
+.form-card{
+	width: 25em;
 	margin: 1rem auto;
 }
 
@@ -23,12 +23,12 @@ body {
 }
 
 .setup-name {
-	font-size: 1.5rem;
-	font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .setup-description {
-	margin: 0 0 1rem 0;
+    margin: 0 0 1rem 0;
 }
 
 .setup-list-action {

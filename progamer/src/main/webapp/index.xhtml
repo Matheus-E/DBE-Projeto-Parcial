@@ -49,7 +49,7 @@
 		
 		            <p:dataViewListItem>
 		                <div class="setup-list-item">
-		                    <p:graphicImage name="demo/images/product/"/>
+		                    <p:graphicImage/>
 		                    <div class="setup-list-detail">
 		                        <div class="setup-name">#{setup.name}</div>
 		                        <div class="setup-description">#{setup.description}</div>
@@ -59,9 +59,10 @@
 		                        <h:outputText value="#{setup.price}" styleClass="setup-price">
 		                            <f:convertNumber currencySymbol="R$" type="currency"/>
 		                        </h:outputText>
-		                        <p:commandButton type="button" value="Detail" icon="pi pi-search">
+		                        <p:commandButton type="button" 
+		                        				 value="Details" 
+		                        				 icon="pi pi-search">
 		                        </p:commandButton>
-		                        <span class="product-badge status-#{product.inventoryStatus.name().toLowerCase()}">#{product.inventoryStatus.text}</span>
 		                    </div>
 		                </div>
 		            </p:dataViewListItem>

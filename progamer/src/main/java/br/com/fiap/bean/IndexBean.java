@@ -1,8 +1,10 @@
 package br.com.fiap.bean;
 
-import javax.faces.bean.ManagedBean;
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Named;
 
-@ManagedBean
+@Named
+@RequestScoped
 public class IndexBean {
 	
 	public void execute() {
