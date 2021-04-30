@@ -5,9 +5,10 @@ body{
 }
 
 .form-card{
-	width: 25em;
+	width: 20rem;
 	margin: 1rem auto;
 }
+
 
 .setup-list-item {
     display: -ms-flexbox;

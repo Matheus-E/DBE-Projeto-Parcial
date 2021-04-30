@@ -36,7 +36,7 @@
 			<div class="p-field p-grid">
 			    <h:outputLabel for="price" class="p-col-fixed" style="width:100px">Price</h:outputLabel>
 			    <div class="p-col">
-			        <p:inputText id="price" value="#{setupBean.setup.price}" converterMessage="Preço deve ser um número.">
+			        <p:inputText id="price" value="#{setupBean.setup.price}" converterMessage="Preço deve ser um número inteiro.">
 			        	<f:validateDoubleRange minimum="0" />
 			        	<f:ajax event="blur" render="messages" />
 			        </p:inputText>
